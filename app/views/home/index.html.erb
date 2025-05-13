@@ -1,0 +1,50 @@
+<div class="container">
+  <header class="page-header">
+    <h1>FieldRouter</h1>
+    <p class="lead">Plan and optimize your field routes with ease</p>
+  </header>
+
+  <div class="row">
+    <div class="col-md-8">
+      <div id="map" style="height: 500px; width: 100%; border-radius: 5px;"></div>
+    </div>
+    
+    <div class="col-md-4">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Route Options</h3>
+        </div>
+        <div class="panel-body">
+          <form id="route-form">
+            <div class="form-group">
+              <label for="start-location">Start Location</label>
+              <input type="text" class="form-control" id="start-location" placeholder="Enter starting point">
+            </div>
+            
+            <div class="form-group">
+              <label for="destination">Destination</label>
+              <input type="text" class="form-control" id="destination" placeholder="Enter destination">
+            </div>
+            
+            <button type="submit" class="btn btn-primary">Calculate Route</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  function initMap() {
+    // Default center coordinates (can be changed to your preferred location)
+    const center = { lat: 40.7128, lng: -74.0060 }; // New York City
+    
+    // Create the map
+    const map = new google.maps.Map(document.getElementById("map"), {
+      zoom: 12,
+      center: center,
+    });
+    
+    // You can add more map initialization code here
+  }
+</script>
