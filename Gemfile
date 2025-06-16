@@ -26,6 +26,9 @@ end
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 
+# Use turbolinks for faster page navigation
+gem 'turbolinks', '~> 5.2'
+
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.11'
 
