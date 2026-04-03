@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # bin/dev — Modern Rails 8 development runner
+# with hot reload
 
 # Exit on error
 set -e

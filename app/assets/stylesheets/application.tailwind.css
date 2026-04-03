@@ -1,8 +1,16 @@
-@import "tailwindcss";
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* TailwindCSS v4 entry */
+@import "tailwindcss/preflight";
 
+/* Optional: Add your own custom styles below */
 body {
   font-family: system-ui, sans-serif;
+}
+
+/* Example custom classes */
+.btn-primary {
+  @apply bg-blue-600 text-white px-4 py-2 rounded;
+}
+
+.btn-secondary {
+  @apply bg-purple-600 text-white px-4 py-2 rounded;
 }
