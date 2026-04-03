@@ -24,6 +24,9 @@ import "@hotwired/turbo-rails";
 import "./controllers";
 
 // Import any custom JS
-// import "./custom_script.js"  // uncomment and create if needed
+// import "./custom_script.js"
+// uncomment and create if needed
+
+// ✅ Load Google Maps dynamically import "./google_maps";
 
 console.log("Rails 8 modern frontend loaded ✅");
