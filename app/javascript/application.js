@@ -14,3 +14,16 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+// Entry point for ESBuild bundling
+
+// Import Turbo (Rails Hotwire)
+import "@hotwired/turbo-rails";
+
+// Import Stimulus controllers
+import "./controllers";
+
+// Import any custom JS
+// import "./custom_script.js"  // uncomment and create if needed
+
+console.log("Rails 8 modern frontend loaded ✅");

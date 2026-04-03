@@ -14,3 +14,8 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+
+/app/assets/builds/*
+!/app/assets/builds/.keep
+
+/node_modules

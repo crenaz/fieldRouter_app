@@ -2,11 +2,18 @@
 <html>
 <head>
   <title>FieldRouter</title>
-  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
-  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
+
+  <!-- Modern Rails 8 frontend tags -->
+  <%= stylesheet_link_tag "application", media: "all" %>
+  <%= javascript_include_tag "application", type: "module" %>
+
   <!-- Bootstrap CSS for basic styling -->
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
   <!-- Google Maps JavaScript API -->
   <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
 </head>
