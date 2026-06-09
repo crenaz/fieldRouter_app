@@ -42,7 +42,7 @@ group :production do
 end
 
 # Use Puma as the app server
-gem 'puma', '~> 6.4'
+gem 'puma', '~> 7.2'
 
 # Use Capistrano for deployment
 # gem 'capistrano', group: :development
